@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.body1 {
+    background: linear-gradient(90deg, green, white, white, red);
+}
+
+.body2 {
+    background: radial-gradient(circle, red 30%, white 70%);
+}
